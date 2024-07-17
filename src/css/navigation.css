@@ -1,0 +1,67 @@
+.container-nav {
+  padding-left: 150px;
+  margin-right: 20px;
+}
+
+.nav-div {
+  margin-top: 20px;
+}
+
+.nav-div a {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-size: 1.5rem;
+}
+
+.nav-div a:hover {
+  background-color: rgb(221, 213, 213, 0.2);
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+.nav-div a svg {
+  margin-right: -10px;
+  height: 25px;
+  width: 25px;
+  margin-top: 7px;
+}
+
+.post-button {
+  display: block;
+  width: 100%;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #1da1f2;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.karakter {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.circle-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.karakter-details h4,
+.karakter-details h5 {
+  margin: 0;
+}
+
+.nav-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

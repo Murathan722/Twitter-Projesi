@@ -1,0 +1,62 @@
+.home {
+  display: flex;
+  height: 100vh;
+  overflow: auto; /* Genel olarak kaydırma çubuğunu gizlemek için */
+}
+
+.nav {
+  border-right: 1px solid #e1e1e1;
+  padding: 20px;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  overflow-y: hidden; /* Ortadaki içeriğin kaydırma çubuğunu gizlemek için */
+}
+
+.news {
+  width: 100%;
+  overflow-y: auto;
+}
+
+.post-form {
+  width: 100%; /* Tweetlerle aynı genişlikte */
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 20px 0; /* Tweetler arasındaki boşluk kadar */
+  position: relative; /* Button için relative positioning */
+  margin-top: 20px;
+}
+
+.post-form textarea {
+  width: 100%;
+  height: 130px; /* Diğer tweetlerin boyutuna uygun */
+  padding: 10px 20px;
+  border-radius: 10px;
+  resize: none; /* Manuel olarak boyut değiştirmeyi önler */
+  font-size: 16px; /* Yazı boyutunu diğer tweetlerle uyumlu hale getirir */
+  box-sizing: border-box; /* Padding ve border'ı hesaba katmak için */
+}
+
+.post-form button {
+  background-color: #1da1f2;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+}
+
+.tweet {
+  width: 100%;
+  margin: 20px 0;
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+  padding: 10px;
+}

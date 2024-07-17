@@ -1,0 +1,26 @@
+.post-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid grey;
+  width: 40%;
+  height: 58px;
+  gap: 10px;
+  background-color: black;
+}
+.header-item {
+  font-size: 1.2rem;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  flex: 1;
+  height: 50%;
+  padding: 15px;
+}
+
+.header-item:hover {
+  background-color: rgb(47, 46, 46);
+  transition: all 0.3s;
+}
